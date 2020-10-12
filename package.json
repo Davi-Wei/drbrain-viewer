@@ -1,0 +1,41 @@
+{
+  "name": "drbrain-viewer",
+  "version": "1.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.esm.js",
+  "unpkg": "./dist/index/umd.js",
+  "scripts": {
+    "doc:dev": "umi-lib doc dev",
+    "doc:build": "umi-lib doc build",
+    "build": "umi-lib build"
+  },
+  "devDependencies": {
+    "umi-library": "^1.6.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": {
+    "name": "Davi-Wei",
+    "emaill": "weizhengda3356@dingtalk.com"
+  },
+  "keywords": [
+     "react",
+     "dicom",
+     "viewer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Davi-Wei/drbrain_viewer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PanJiaChen/vue-element-admin/issues"
+  },
+  "license": "MIT"
+}
